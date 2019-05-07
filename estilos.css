@@ -1,0 +1,80 @@
+/* body{
+    padding: 0;
+    margin: 0;
+    height: 1000px;
+    border: solid 1px green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border: solid 1px red;
+    width: 800px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mini-box{
+    border: solid 1px blue;
+    width: 150px;
+    height: 150px;
+} */
+
+/* justify content = alinea horizontalmente
+flex-start = alinear al inicio
+
+center = alinea al centro
+
+flex - end = alinea al final
+
+space-around =separa los items con la misma distancia entre los bordes
+
+space-between = separa los items con la misma distancia entre si
+
+align items = alinea verticalmente
+flex-start = alinear al inicio
+center = alinea al centro
+flex - end = alinea al final
+*/
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.padre{
+    border: solid 1px orangered;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.morrillo{
+    border: solid 1px blueviolet;
+    width: 50px;
+    height: 50px;
+}
+
+.madre{
+    border: solid 1px green;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.morrilla{
+    border: solid 1px gold;
+    width: 50px;
+    height: 50px;
+}
